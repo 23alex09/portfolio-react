@@ -1,4 +1,5 @@
-import { NavMenu, HomePage } from "./"
+import { Outlet } from "react-router-dom"
+import { NavMenu } from "./"
 
 
 export const Portfolio = () => {
@@ -11,7 +12,7 @@ export const Portfolio = () => {
                 <NavMenu />
             </header>
             <main>
-                <HomePage />
+                <Outlet />
             </main>
         </>
     )
