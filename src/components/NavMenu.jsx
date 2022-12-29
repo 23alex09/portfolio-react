@@ -1,6 +1,6 @@
-import { NavItem } from "./NavItem"
+import { NavItem } from "./"
 
-const items = [ 'About', 'Experience', 'Work', 'Contact' ]
+const items = [ 'Home', 'About', 'Projects', 'Contact' ]
 
 export const NavMenu = () => {
 

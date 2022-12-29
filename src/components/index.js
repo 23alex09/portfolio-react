@@ -1,0 +1,6 @@
+export * from './NavItem'
+export * from './Portfolio'
+export * from './NavMenu'
+export * from './SocialLinks'
+export * from './Presentation'
+export * from './HomePage'
